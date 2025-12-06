@@ -29,7 +29,7 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="relative min-h-screen py-20 px-8 md:px-16 lg:px-24 flex items-center justify-center">
+    <section id="skills" className="relative py-16 md:py-20 px-6 sm:px-8 md:px-12 lg:px-20 xl:px-24 flex items-center justify-center">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ export default function Skills() {
         className="max-w-6xl mx-auto w-full"
       >
         {/* Header */}
-        <div className="mb-16 text-center">
+        <div className="mb-20 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

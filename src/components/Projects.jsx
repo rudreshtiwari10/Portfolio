@@ -102,7 +102,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="min-h-screen py-20 px-8 md:px-16 lg:px-24">
+    <section id="projects" className="py-16 md:py-20 px-6 sm:px-8 md:px-12 lg:px-20 xl:px-24">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -111,7 +111,7 @@ export default function Projects() {
         className="max-w-7xl mx-auto"
       >
         {/* Header */}
-        <div className="mb-20 text-center">
+        <div className="mb-24 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

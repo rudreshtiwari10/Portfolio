@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function About() {
   return (
-    <section id="about" className="min-h-screen flex items-center justify-center px-8 md:px-16 lg:px-24 py-20">
+    <section id="about" className="flex items-center justify-center px-6 sm:px-8 md:px-12 lg:px-20 xl:px-24 py-16 md:py-20">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -11,7 +11,7 @@ export default function About() {
         className="w-full max-w-5xl"
       >
         {/* Section Header */}
-        <div className="mb-16 text-center">
+        <div className="mb-20 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

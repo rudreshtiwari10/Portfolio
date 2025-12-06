@@ -2,7 +2,7 @@ import { motion } from "framer-motion";
 
 export default function Academics() {
   return (
-    <section id="academics" className="min-h-screen flex items-center justify-center px-8 md:px-16 lg:px-24 py-16 bg-transparent">
+    <section id="academics" className="flex items-center justify-center px-6 sm:px-8 md:px-12 lg:px-20 xl:px-24 py-16 md:py-20 bg-transparent">
       <motion.div
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -11,7 +11,7 @@ export default function Academics() {
         className="w-full max-w-6xl backdrop-blur-sm bg-black/20 rounded-3xl p-6 md:p-8 border border-white/5"
       >
         {/* Section Header */}
-        <div className="mb-12 text-center">
+        <div className="mb-16 text-center">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
