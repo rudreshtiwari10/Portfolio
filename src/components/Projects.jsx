@@ -56,7 +56,7 @@ export default function Projects() {
     {
       title: "WelthWest.com",
       description: "A scalable AI-driven financial research and backtesting platform enabling real-time market analysis, strategy testing, and intelligent insights through NLP-based automation.",
-      images: ["/welthwest-1.png", "/welthwest-2.png", "/welthwest-3.png", "/welthwest-4.png"],
+      images: ["welthwest-1.png", "welthwest-2.png", "welthwest-3.png", "welthwest-4.png"],
       technologies: ["React", "Flask", "MongoDB", "TailwindCSS", "Google Gemini API", "Python"],
       features: [
         "AI-powered financial research & chatbot system for automated market insights",
@@ -72,7 +72,7 @@ export default function Projects() {
     {
       title: "Explore Indian Islands",
       description: "Real-time chat application with user authentication, multiple chat rooms, and instant messaging capabilities using WebSocket technology.",
-      images: ["/homeexplore.png", "/andamanhome.png", "/imagegallery.png", "/cuisine.png"],
+      images: ["homeexplore.png", "andamanhome.png", "imagegallery.png", "cuisine.png"],
       technologies: ["React", "Node.js", "Express", "MongoDB", "Socket.io"],
       features: [
         "Real-time messaging with WebSockets",

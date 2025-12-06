@@ -86,7 +86,7 @@ export default function Hero({ onNavTransform, isNavbarMode }) {
                     <div className="relative">
                       <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-blue-400/60 shadow-lg shadow-blue-500/50 flex-shrink-0 ring-2 ring-blue-400/20 ring-offset-2 ring-offset-transparent">
                         <img
-                          src="/rudreshimage.png"
+                          src="rudreshimage.png"
                           alt="Rudresh Tiwari"
                           className="w-full h-full object-cover"
                           onError={(e) => {
@@ -283,7 +283,7 @@ export default function Hero({ onNavTransform, isNavbarMode }) {
                 >
                   <div className="w-48 h-48 md:w-60 md:h-60 lg:w-72 lg:h-72 rounded-full overflow-hidden border-4 border-blue-400/40 shadow-xl shadow-blue-500/20 hover:border-blue-400 transition-all duration-300">
                     <img
-                      src="/rudreshimage.png"
+                      src="rudreshimage.png"
                       alt="Rudresh Tiwari"
                       className="w-full h-full object-cover hover:scale-110 transition-transform duration-500"
                       onError={(e) => {
@@ -497,7 +497,7 @@ export default function Hero({ onNavTransform, isNavbarMode }) {
                   className="flex justify-center lg:justify-start pt-8"
                 >
                   <a
-                    href="/Rudreshresume.pdf"
+                    href="Rudreshresume.pdf"
                     download="Rudresh_Tiwari_Resume.pdf"
                     className="group relative inline-flex items-center justify-center gap-4 px-12 py-6 min-w-[280px] overflow-hidden rounded-2xl bg-white/5 backdrop-blur-sm border-2 border-white/10 hover:border-blue-400/50 transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:shadow-blue-500/50"
                   >

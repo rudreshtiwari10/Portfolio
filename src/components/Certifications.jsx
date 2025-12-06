@@ -9,28 +9,28 @@ export default function Certifications() {
       name: "Programming in Java", 
       issuer: "NPTEL (IIT Kharagpur)", 
       year: "2025",
-      img: "/javanptel.png",
+      img: "javanptel.png",
       learning: "Core Java, OOP concepts, multithreading, exception handling."
     },
     { 
       name: "Database Management Systems", 
       issuer: "NPTEL (IIT Kharagpur)", 
       year: "2025",
-      img: "/dbms.png",
+      img: "dbms.png",
       learning: "Relational models, SQL, transaction control, normalization."
     },
     { 
       name: "Design & Analysis of Algorithms", 
       issuer: "NPTEL (IIT Kharagpur)", 
       year: "2024",
-      img: "/daa.png",
+      img: "daa.png",
       learning: "Time complexity, greedy, divide & conquer, dynamic programming."
     },
     { 
       name: "MERN Full-Stack Development", 
       issuer: "Apna College", 
       year: "2025",
-      img: "/MERN.png",
+      img: "MERN.png",
       learning: "React, Node, Express, MongoDB, full-stack application building."
     },
     { 
