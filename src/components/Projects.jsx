@@ -68,23 +68,6 @@ export default function Projects() {
         github: "#"
       }
     },
-    {
-      title: "Executive portfolio website",
-      description: "📌 Executive Portfolio — Dynamic Admin-Managed Personal Brand PlatformA full-stack MERN-based executive portfolio platform designed for professionals, founders, and team leaders who need more than a static portfolio website.Unlike traditional portfolios where information is hard-coded, this platform provides a dedicated admin panel to manage all content dynamically — turning the website into a self-operated personal brand system.The current implementation is modeled as a sample portfolio for Nikhil Kamath to demonstrate a real-world executive use case. However, the system is fully reusable and can be configured for any individual or organization without modifying the codebase.",
-      images: ["ep1.png", "ep2.png", "ep3.png", "ep4.png", "ep5.png", "ep6.png","ep7.png","ep8.png","ep9.png","ep10.png","ep11.png","ep12.png","ep13.png","ep14.png","ep15.png"],
-      technologies: ["React.js", "Node.js", "express.js", "mongodb"],
-      features: [
-        "🔐 Dynamic Admin Control",
-        "🤖 AI Personal Assistant",
-        "💬 Visitor Messaging System",
-        "📝 Integrated Blogging Platform",
-        "🎨 Professional UI/UX"
-      ],
-      links: {
-        live: "#",
-        github: "#"
-      }
-    },
     
     {
       title: "Explore Indian Islands",
@@ -102,14 +85,14 @@ export default function Projects() {
       }
     },
     {
-      title: "Accounting and Auditing ERP portal",
-      description: "Developed a full-stack ERP system with React and Flask, featuring multi-role login, invoice/document upload, and real-time data extraction from Excel/PDF files with modular backend APIs, enabling secure authentication, data visualization, and automated record processing.me optimization tool that calculates ATS scores, provides improvement suggestions, and analyzes skill match against job descriptions.",
+      title: "SkillMatch Resume Analyzer",
+      description: "Resume optimization tool that calculates ATS scores, provides improvement suggestions, and analyzes skill match against job descriptions.",
       images: ["Upload Interface", "ATS Score View", "Suggestions Panel", "Skills Analysis"],
       technologies: ["Python", "NLP", "Streamlit", "Machine Learning"],
       features: [
-        "INVOICE UPLOAD",
-        "Excel sheet upload ",
-        "Database Operations"
+        "ATS score calculation",
+        "Keyword optimization suggestions",
+        "Skill gap analysis"
       ],
       links: {
         live: "#",
